@@ -21,16 +21,15 @@
 
 If you decide to build the "enclosure" the same way I did:
 * two pieces of wood, laminate, or any thin but strong material
-* [handle, 3d-printed.](https://www.thingiverse.com/thing:4619895) Consider mounting after assembly, so that you can balance your flashlight properly.
-* connecting pillars, 3d-printed. 
+* [handle, 3d-printed.](https://www.thingiverse.com/thing:4619895) Consider mounting after assembly, so that you can balance your flashlight properly
+* connecting pillars, 3d-printed.
 
 ## Pinout
-
 * OLED and Arduino powered by a step-down converter set to 5V
 * Cooling fan powered by a step-down converter set to 10-12V
 * Arduino pin A4 - OLED's SCK
 * Arduino pin A5 OLED's SDA
-* Arduino pins 2,3,4,5,6 to the keypad - 2 is common.
+* Arduino pins 2,3,4,5,6 to the keypad - 2 is common
 * Arduino pin 9 to MOSFET's gate
 * MOSFET's source to LED driver ground
 * MOSFET's drain to LED's negative contact
@@ -38,10 +37,9 @@ If you decide to build the "enclosure" the same way I did:
 Everything else should be self-explanatory.
 
 ## Additional information
-- If you need to use the `flip()` function, you need to add this it Adafruit's library yourself. You can follow [this guide](http://nerdclub-uk.blogspot.com/2016/03/adding-flip-function-to-adafruits.html) for help.
+If you need to use the `flip()` function, you need to add this it Adafruit's library yourself. You can follow [this guide](http://nerdclub-uk.blogspot.com/2016/03/adding-flip-function-to-adafruits.html) for help.
 
 ## Showcase
-
 ![PIC1](https://github.com/Syverynx/Arduino-flashlight/blob/master/Images/Light%20(1).jpg)
 ![PIC2](https://github.com/Syverynx/Arduino-flashlight/blob/master/Images/Light%20(2).jpg)
 ![PIC3](https://github.com/Syverynx/Arduino-flashlight/blob/master/Images/Light%20(3).jpg)
